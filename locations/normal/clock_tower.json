@@ -33,7 +33,7 @@
             {
                 "name": "On Top of Column",
                 "access_rules": [
-                    "$canHighJump"
+                    "$canJump"
                 ],
                 "sections": [
                     {
