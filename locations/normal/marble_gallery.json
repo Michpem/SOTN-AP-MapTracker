@@ -6,7 +6,9 @@
                 "name": "Left Clock Before Olrox's Quarters",
                 "access_rules": [
                     "$canJump",
-                    "open_are,jewelofopen"
+                    "open_are,jewelofopen",
+                    "[never],ool_tricks,$canTransform",
+                    "[never],ool_tricks,formofmist"
                 ],
                 "visibility_rules": [
                     "logic_full"
@@ -33,7 +35,9 @@
             {
                 "name": "Right Clock",
                 "access_rules": [
-                    "cubeofzoe,$canJump"
+                    "cubeofzoe,$canJump",
+                    "[never],cubeofzoe,ool_tricks,$canTransform",
+                    "[never],cubeofzoe,ool_tricks,formofmist"
                 ],
                 "sections": [
                     {

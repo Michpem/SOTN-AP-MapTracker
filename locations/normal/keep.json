@@ -4,16 +4,17 @@
         "children": [
             {
                 "name": "Open Area Bottom Left",
-                "access_rules": [
-                    "$canJump",
-                    "jewelofopen"
-                ],
                 "sections": [
                     {
                         "name": "On Ledge",
                         "item_count": 1,
                         "visibility_rules": [
                             "logic_full"
+                        ],
+                        "access_rules": [
+                            "$canJump",
+                            "[never],ool_tricks,$canTransform",
+                            "[never],ool_tricks,formofmist"
                         ]
                     },
                     {
@@ -21,6 +22,11 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "logic_full"
+                        ],
+                        "access_rules": [
+                            "$canJump",
+                            "[never],ool_tricks,$canTransform",
+                            "[never],ool_tricks,formofmist"
                         ]
                     },
                     {
@@ -28,6 +34,12 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "logic_relic_prog"
+                        ],
+                        "access_rules": [
+                            "jewelofopen",
+                            "$canJump",
+                            "[never],ool_tricks,$canTransform",
+                            "[never],ool_tricks,formofmist"
                         ]
                     }
                 ],
@@ -40,6 +52,35 @@
                     {
                         "map": "vertical",
                         "x": 612,
+                        "y": 1137
+                    }
+                ]
+            },
+            {
+                "name": "Top Right Room by Dual Moving Platforms",
+                "visibility_rules": [
+                    "logic_full"
+                ],
+                "access_rules": [
+                    "$canJump",
+                    "[never],ool_tricks,$canTransform",
+                    "[never],ool_tricks,formofmist"
+                ],
+                "sections": [
+                    {
+                        "name": "Top Right Room by Dual Moving Platforms",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "normal",
+                        "x": 772,
+                        "y": 152
+                    },
+                    {
+                        "map": "vertical",
+                        "x": 772,
                         "y": 1137
                     }
                 ]
@@ -81,30 +122,6 @@
                                 "map": "vertical",
                                 "x": 612,
                                 "y": 1097
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Top Right Room by Dual Moving Platforms",
-                        "visibility_rules": [
-                            "logic_full"
-                        ],
-                        "sections": [
-                            {
-                                "name": "Top Right Room by Dual Moving Platforms",
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "normal",
-                                "x": 772,
-                                "y": 152
-                            },
-                            {
-                                "map": "vertical",
-                                "x": 772,
-                                "y": 1137
                             }
                         ]
                     },

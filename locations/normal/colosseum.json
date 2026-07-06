@@ -3,7 +3,9 @@
         "name": "Colosseum",
         "access_rules": [
             "open_are,jewelofopen",
-            "$canJump"
+            "$canJump",
+            "[never],ool_tricks,$canTransform",
+            "[never],ool_tricks,formofmist"
         ],
         "children": [
             {

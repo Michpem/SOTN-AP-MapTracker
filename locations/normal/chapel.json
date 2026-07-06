@@ -3,7 +3,9 @@
         "name": "Royal Chapel",
         "access_rules": [
             "jewelofopen",
-            "$canJump"
+            "$canJump",
+            "[never],ool_tricks,$canTransform",
+            "[never],ool_tricks,formofmist"
         ],
         "children": [
             {

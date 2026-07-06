@@ -3,14 +3,19 @@
         "name": "Olrox's Quarters",
         "access_rules": [
             "open_are,jewelofopen",
-            "$canJump"
+            "$canJump",
+            "[never],ool_tricks,$canTransform",
+            "[never],ool_tricks,formofmist"
         ],
         "children": [
             {
                 "name": "Front Quarters",
                 "access_rules": [
                     "$canJump",
-                    "open_are,@Royal Chapel"
+                    "open_are,@Royal Chapel",
+                    "[never],ool_tricks,$canTransform",
+                    "[never],ool_tricks,formofmist"
+                    
                 ],
                 "children": [
                     {

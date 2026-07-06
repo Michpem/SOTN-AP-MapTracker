@@ -1,7 +1,7 @@
 {
     "name": "Symphony of the Night Randomizer Map Tracker",
     "game_name": "Symphony of the Night",
-    "package_version": "0.2.10",
+    "package_version": "0.2.11",
     "package_uid": "sotn_ap_maptracker",
     "platform": "PC",
     "author": "Dorkmaster Flek",
@@ -20,5 +20,5 @@
         }
     },
     "min_poptracker_version": "0.25.8",
-    "versions_url": "https://raw.githubusercontent.com/DorkmasterFlek/SOTN-AP-MapTracker/master/versions.json"
+    "versions_url": "https://raw.githubusercontent.com/Michpem/SOTN-AP-MapTracker/refs/heads/main/versions.json"
 }

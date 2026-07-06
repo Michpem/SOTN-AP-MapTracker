@@ -29,7 +29,8 @@
             {
                 "name": "Right Alcove in Cube of Zoe Room",
                 "access_rules": [
-                    "$canJump"
+                    "$canJump",
+                    "[never],ool_tricks"
                 ],
                 "visibility_rules": [
                     "logic_full"

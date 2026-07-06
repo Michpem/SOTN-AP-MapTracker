@@ -143,6 +143,15 @@
                     "margin": "10,0,10,10",
                     "item": "open_are"
                 }
+            },
+            {
+                "type": "group",
+                "header": "Simple Out of Logic Tricks",
+                "content": {
+                    "type": "item",
+                    "margin": "10,0,10,10",
+                    "item": "ool_tricks"
+                }
             }
         ]
     },

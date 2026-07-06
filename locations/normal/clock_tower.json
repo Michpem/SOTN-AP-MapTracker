@@ -1,9 +1,6 @@
 [
     {
         "name": "Clock Tower",
-        "access_rules": [
-            "$canJump"
-        ],
         "children": [
             {
                 "name": "Bellow Broken Bridge",
@@ -76,6 +73,9 @@
             },
             {
                 "name": "Rotating Gears Puzzle Room",
+                "access_rules": [
+                    "$canJump"
+                ],
                 "sections": [
                     {
                         "name": "Item 1",
@@ -117,6 +117,9 @@
                 "visibility_rules": [
                     "logic_full"
                 ],
+                "access_rules": [
+                    "$canJump"
+                ],
                 "sections": [
                     {
                         "name": "Behind Breakable Wall Close to Bronze Statue",
@@ -140,6 +143,9 @@
                 "name": "Gears Puzzle Room Breakable Wall Room Left Item",
                 "visibility_rules": [
                     "logic_full"
+                ],
+                "access_rules": [
+                    "$canJump"
                 ],
                 "sections": [
                     {
@@ -165,6 +171,9 @@
                 "visibility_rules": [
                     "logic_full"
                 ],
+                "access_rules": [
+                    "$canJump"
+                ],
                 "sections": [
                     {
                         "name": "Gears Puzzle Room Breakable Wall Room Right Item",
@@ -189,6 +198,9 @@
                 "visibility_rules": [
                     "logic_full"
                 ],
+                "access_rules": [
+                    "$canJump"
+                ],
                 "sections": [
                     {
                         "name": "After Rotating Gears Behind Breakable Wall",
@@ -212,6 +224,9 @@
                 "name": "Before Karasuman Breakable Wall",
                 "visibility_rules": [
                     "logic_full"
+                ],
+                "access_rules": [
+                    "$canJump"
                 ],
                 "sections": [
                     {
@@ -271,6 +286,9 @@
                 "name": "Karasuman",
                 "visibility_rules": [
                     "boss_locations"
+                ],
+                "access_rules": [
+                    "$canJump"
                 ],
                 "sections": [
                     {

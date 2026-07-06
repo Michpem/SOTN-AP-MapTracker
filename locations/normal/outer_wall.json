@@ -60,7 +60,8 @@
             {
                 "name": "Yellow Vase on High Ledge",
                 "access_rules": [
-                    "$canJump"
+                    "$canJump",
+                    "[never], formofmist"
                 ],
                 "visibility_rules": [
                     "logic_full"

@@ -12,7 +12,8 @@
                     {
                         "name": "Red Vase on Ledge Next to Marble Gallery",
                         "access_rules": [
-                            "$canJump"
+                            "$canJump",
+                            "[never],ool_tricks,formofmist"
                         ],
                         "visibility_rules": [
                             "logic_full"
@@ -169,6 +170,10 @@
                             {
                                 "name": "Air Pocket Item",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "holysymbol",
+                                    "[never],ool_tricks"
+                                ],
                                 "visibility_rules": [
                                     "logic_equipment"
                                 ]
@@ -190,7 +195,8 @@
                     {
                         "name": "Underwater",
                         "access_rules": [
-                            "holysymbol"
+                            "holysymbol",
+                            "[never],ool_tricks"
                         ],
                         "visibility_rules": [
                             "logic_full"
@@ -491,7 +497,8 @@
                             {
                                 "name": "Underwater Item 1",
                                 "access_rules": [
-                                    "holysymbol"
+                                    "holysymbol",
+                                    "[never],ool_tricks"
                                 ],
                                 "visibility_rules": [
                                     "logic_equipment"
@@ -518,7 +525,8 @@
                             {
                                 "name": "Underwater Item 2",
                                 "access_rules": [
-                                    "holysymbol"
+                                    "holysymbol",
+                                    "[never],ool_tricks"
                                 ],
                                 "visibility_rules": [
                                     "logic_full"
@@ -545,8 +553,7 @@
                             {
                                 "name": "On Alcove",
                                 "access_rules": [
-                                    "mermanstatue",
-                                    "$canFly"
+                                    "mermanstatue"
                                 ],
                                 "visibility_rules": [
                                     "logic_equipment"
@@ -573,7 +580,8 @@
                             {
                                 "name": "Underwater Item 3",
                                 "access_rules": [
-                                    "holysymbol,mermanstatue"
+                                    "holysymbol,mermanstatue",
+                                    "[never],ool_tricks,mermanstatue"
                                 ],
                                 "visibility_rules": [
                                     "logic_full"
@@ -629,7 +637,8 @@
                     {
                         "name": "Alcove Behind Waterfall",
                         "access_rules": [
-                            "$canJump"
+                            "$canJump",
+                            "[never],ool_tricks"
                         ],
                         "visibility_rules": [
                             "logic_equipment"
@@ -656,7 +665,8 @@
                     {
                         "name": "Waterfall Upper Item",
                         "access_rules": [
-                            "$canJump"
+                            "$canJump",
+                            "[never],ool_tricks"
                         ],
                         "visibility_rules": [
                             "logic_full"
@@ -692,7 +702,8 @@
                     {
                         "name": "Waterfall Bottom Item",
                         "access_rules": [
-                            "$canJump"
+                            "$canJump",
+                            "[never],ool_tricks"
                         ],
                         "visibility_rules": [
                             "logic_full"
