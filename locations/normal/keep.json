@@ -57,35 +57,6 @@
                 ]
             },
             {
-                "name": "Top Right Room by Dual Moving Platforms",
-                "visibility_rules": [
-                    "logic_full"
-                ],
-                "access_rules": [
-                    "$canJump",
-                    "[never],ool_tricks,$canTransform",
-                    "[never],ool_tricks,formofmist"
-                ],
-                "sections": [
-                    {
-                        "name": "Top Right Room by Dual Moving Platforms",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "normal",
-                        "x": 772,
-                        "y": 152
-                    },
-                    {
-                        "map": "vertical",
-                        "x": 772,
-                        "y": 1137
-                    }
-                ]
-            },
-            {
                 "name": "Main Keep",
                 "access_rules": [
                     "$canJump"
@@ -122,6 +93,32 @@
                                 "map": "vertical",
                                 "x": 612,
                                 "y": 1097
+                            }
+                        ]
+                    },
+                                        {
+                        "name": "Top Right Room by Dual Moving Platforms",
+                        "access_rules": [
+                            "$canJump",
+                            "[never],ool_tricks,$canTransform",
+                            "[never],ool_tricks,formofmist"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Top Right Room by Dual Moving Platforms",
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "normal",
+                                "x": 772,
+                                "y": 152
+                            },
+                            {
+                                "map": "vertical",
+                                "x": 772,
+                                "y": 1137
                             }
                         ]
                     },

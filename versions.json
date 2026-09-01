@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.2.12",
+            "download_url": "https://github.com/Michpem/SOTN-AP-MapTracker/releases/download/v0.2.12/SOTN-AP-MapTracker.zip",
+            "sha256": "-",
+            "changelog": [
+                "Fixed autotracking for 'Castle Keep - Top Right Room by Dual Moving Platforms'"
+            ]
+        },
+        {
             "package_version": "0.2.11",
             "download_url": "https://github.com/Michpem/SOTN-AP-MapTracker/releases/download/v0.2.11/SOTN-AP-MapTracker.zip",
             "sha256": "da127dfa93a2296e0eb104ef2fe8ee12421b366d59ccc61d30d8e5ef6de33c24",
