@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.2.13",
+            "download_url": "https://github.com/Michpem/SOTN-AP-MapTracker/releases/download/0.2.13/SOTN-AP-MapTracker.zip",
+            "sha256": "-",
+            "changelog": [
+                "Fixed logic for 'Entrance - Right Alcove in Cube of Zoe Room'"
+            ]
+        },
+        {
             "package_version": "0.2.12",
             "download_url": "https://github.com/Michpem/SOTN-AP-MapTracker/releases/download/0.2.12/SOTN-AP-MapTracker.zip",
             "sha256": "cc34ee4e6e0186a8b7b93262146ba2a131cce312ff5098f2be68f66bab2eb114",
