@@ -3,7 +3,7 @@
         {
             "package_version": "0.2.14",
             "download_url": "https://github.com/Michpem/SOTN-AP-MapTracker/releases/download/0.2.14/SOTN-AP-MapTracker.zip",
-            "sha256": "-",
+            "sha256": "0ed9c5b117a9563b3294559dc45d50619529ba7f57bf9fb62d64d314fb01d612",
             "changelog": [
                 "Fixed logic for 'Akmodan II Item'"
             ]
