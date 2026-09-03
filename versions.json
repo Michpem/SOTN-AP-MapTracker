@@ -1,9 +1,17 @@
 {
     "versions": [
         {
+            "package_version": "0.2.14",
+            "download_url": "https://github.com/Michpem/SOTN-AP-MapTracker/releases/download/0.2.14/SOTN-AP-MapTracker.zip",
+            "sha256": "-",
+            "changelog": [
+                "Fixed logic for 'Akmodan II Item'"
+            ]
+        },
+        {
             "package_version": "0.2.13",
             "download_url": "https://github.com/Michpem/SOTN-AP-MapTracker/releases/download/0.2.13/SOTN-AP-MapTracker.zip",
-            "sha256": "-",
+            "sha256": "30826f1b56de71261e6ad62eb32fb2429b756a212a7cd5c34f6df69fef3e0dd1",
             "changelog": [
                 "Fixed logic for 'Entrance - Right Alcove in Cube of Zoe Room'"
             ]

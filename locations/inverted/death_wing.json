@@ -244,6 +244,9 @@
             },
             {
                 "name": "Akmodan II Item",
+                "access_rules": [
+                    "$canTransform"
+                ],
                 "visibility_rules": [
                     "logic_relic_prog"
                 ],
