@@ -80,7 +80,8 @@
             {
                 "name": "Underwater",
                 "access_rules": [
-                    "gravityboots"
+                    "gravityboots",
+                    "[never],ool_tricks,leapstone"
                 ],
                 "visibility_rules": [
                     "logic_full"
@@ -211,7 +212,8 @@
             {
                 "name": "Item on Air Pocket",
                 "access_rules": [
-                    "gravityboots,holysymbol"
+                    "gravityboots,holysymbol",
+                    "[never],ool_tricks,leapstone"
                 ],
                 "visibility_rules": [
                     "logic_full"

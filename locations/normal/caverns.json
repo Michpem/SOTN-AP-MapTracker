@@ -553,7 +553,7 @@
                             {
                                 "name": "On Alcove",
                                 "access_rules": [
-                                    "mermanstatue"
+                                    "$canJump"
                                 ],
                                 "visibility_rules": [
                                     "logic_equipment"
