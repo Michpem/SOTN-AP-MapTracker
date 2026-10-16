@@ -3,7 +3,7 @@
             {
             "package_version": "0.2.15",
             "download_url": "https://github.com/Michpem/SOTN-AP-MapTracker/releases/download/0.2.15/SOTN-AP-MapTracker.zip",
-            "sha256": "-",
+            "sha256": "7460eb2aab1508919450f6d4bc48391777cbe479f3f02172ba7da14d1ac6a0f9",
             "changelog": [
 			    "Fixed logic for 'Underground Caverns Ice Area - On Alcove'",
                 "Added a few more out of logic tricks"
